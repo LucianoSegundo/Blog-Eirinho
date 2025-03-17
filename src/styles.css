@@ -3,6 +3,8 @@ body{
     padding: 0px;
     box-sizing: border-box;
     background-color: #111111;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body a {
