@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './titulo-menu.component.css'
 })
 export class TituloMenuComponent {
-  nomeBlog:string = "Eirinho Gameplay"
+  nomeBlog:string = "Fã Clube dos Orfãs de Shiki"
 }

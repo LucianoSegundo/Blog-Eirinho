@@ -3,14 +3,13 @@
 <div class="artigos">
 
     <div class="principais">
-        <app-card-grande></app-card-grande>
+        <app-card-grande [foto]="fotoGrande" [titulo]="tituloGrande" [descricao]="descricaoGrande"></app-card-grande>
     </div>
     <div class="secundarios">
-        <app-card-pequeno></app-card-pequeno>
-
-        <app-card-pequeno></app-card-pequeno>
-
-        <app-card-pequeno></app-card-pequeno>
+        @for(arti of artigos; track arti){
+        <app-card-pequeno [titulo]="arti.titulo" [foto]="arti.foto" ></app-card-pequeno>
+        }
+        
     </div>
 
 </div>
