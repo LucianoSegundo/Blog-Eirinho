@@ -1,0 +1,17 @@
+.titulo-menu{
+    color: white;
+  }
+  
+  .titulo-menu > h1{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 135px;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .titulo-menu > hr{
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
