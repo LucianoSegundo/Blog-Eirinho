@@ -11,4 +11,6 @@ export class CardPequenoComponent {
 titulo:string = "";
 @Input()
 foto:string = "";
+@Input()
+id:string = ""
 }
